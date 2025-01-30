@@ -1,5 +1,5 @@
 %{
-MATH 245 MATLAB 2 PART 1
+MATH 245 MATLAB 2 PART 3
 _____________________
 Jerom Jothiprakasam
 jothipra@usc.edu
