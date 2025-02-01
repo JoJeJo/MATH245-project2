@@ -17,9 +17,7 @@ Date            Changes             Programmer
 clc;
 clear;
 
-%% Question 1 -- Malthusian Model
-
-% part (a) 
+%% part (a) 
 
 tspan = [0 10]; % Time interval [0, 10]
 y0 = 2; % P0 = 2
@@ -32,4 +30,4 @@ xlabel('P(t) - Population');
 ylabel('t - time');
 title('P(t) versus t'); 
 
-% part (b)
+%% part (b)
