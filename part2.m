@@ -17,6 +17,10 @@ Date            Changes             Programmer
 clc;
 clear;
 
+%% part (a)
+% NEED TO DO PART A
+
+
 %% part (b)
 
 tSpan = [0 10];            % Time interval [0, 10]
