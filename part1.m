@@ -14,6 +14,7 @@ Date            Changes             Programmer
 2/1/2025       Q1,part(A)         Natalia Hopper
 2/1/2025       Q1,part(B)       Jerom Jothiprakasam
 2/1/2025       Q1,part(C)       Jerom Jothiprakasam
+2/1/2025       Q1,part(D)       Jerom Jothiprakasam
 %}
 
 clc;
@@ -103,3 +104,13 @@ ylabel('Population (P(t))');
 grid on;
 title('P(t) versus t Using Euler''s Method');
 legend('P(t) h=0.001','P(t) h=0.1','P(t) h=0.5','P(t) h=1');
+
+%% part(D)
+
+%{
+    The exact solution is the graph with the step value
+    that is closest to zero. So in our case the solution
+    where h = 0.001 is the exact solution. As h increases
+    the graph becomes less steep.
+
+%}
