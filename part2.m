@@ -11,10 +11,10 @@ Revision History
 Date            Changes             Programmer
 ---------------------------------------------------------
 1/30/2025      Original         Jerom Jothiprakasam
-2/01/2025        part (B)        Natalia Hopper
-2/01/2025        part (C)        Natalia Hopper
-2/01/2025        part (D)        Natalia Hopper
-2/01/2025        part (E)        Natalia Hopper
+2/1/2025       part (B)           Natalia Hopper
+2/1/2025       part (C)           Natalia Hopper
+2/1/2025       part (D)           Natalia Hopper
+2/1/2025       part (E)           Natalia Hopper
 %}
 
 clc;
