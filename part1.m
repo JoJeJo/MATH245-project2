@@ -11,10 +11,10 @@ Revision History
 Date            Changes             Programmer
 ---------------------------------------------------------
 1/30/2025      Original         Jerom Jothiprakasam
-2/1/2025       Q1,part(A)         Natalia Hopper
-2/1/2025       Q1,part(B)       Jerom Jothiprakasam
-2/1/2025       Q1,part(C)       Jerom Jothiprakasam
-2/1/2025       Q1,part(D)       Jerom Jothiprakasam
+2/1/2025        part(A)           Natalia Hopper
+2/1/2025        part(B)         Jerom Jothiprakasam
+2/1/2025        part(C)         Jerom Jothiprakasam
+2/1/2025        part(D)         Jerom Jothiprakasam
 %}
 
 clc;
@@ -106,11 +106,4 @@ title('P(t) versus t Using Euler''s Method');
 legend('P(t) h=0.001','P(t) h=0.1','P(t) h=0.5','P(t) h=1');
 
 %% part(D)
-
-%{
-    The exact solution is the graph with the step value
-    that is closest to zero. So in our case the solution
-    where h = 0.001 is the exact solution. As h increases
-    the graph becomes less steep.
-
-%}
+   fprintf('The "exact" curve is considered to be the graph from\npart (b) where MATLAB solves the ODE function. All\nthe other graphs are approximations using Euler''s\nMethod. The exact solution is the graph with the step\nthat is closest to zero. So in our case the solution\nwhere h = 0.001 is the exact solution. As h increases\nthe graph becomes less steep.\n');
