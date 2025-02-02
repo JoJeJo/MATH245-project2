@@ -13,6 +13,7 @@ Date            Changes             Programmer
 1/30/2025      Original         Jerom Jothiprakasam
 2/1/2025       Q1,part(A)         Natalia Hopper
 2/1/2025       Q1,part(B)       Jerom Jothiprakasam
+2/1/2025       Q1,part(C)       Jerom Jothiprakasam
 %}
 
 clc;
@@ -49,11 +50,12 @@ end
 
 figure;
 hold on;
-plot(timeVector, P, 'r-');
+plot(timeVector1, P1, 'r-');
+
 
 %% part (C)
 
-h2 = 0.01;                 % Time Step
+h2 = 0.1;                  % Time Step
 tFinal = 10;               % Final Time
 timeVector2 = 0:h2:tFinal; % Time Inputs
 N2 = length(timeVector2);  % Number of Time Steps
@@ -65,9 +67,9 @@ for i = 1:N2-1
     P2(i+1) = P2(i) + h2 * r * P2(i);
 end
 
-plot(timeVector, P2, 'b-');
+plot(timeVector2, P2, 'b-');
 
-h3 = 0.1;                  % Time Step
+h3 = 0.5;                  % Time Step
 tFinal = 10;               % Final Time
 timeVector3 = 0:h3:tFinal; % Time Inputs
 N3 = length(timeVector3);  % Number of Time Steps
@@ -79,7 +81,7 @@ for i = 1:N3-1
     P3(i+1) = P3(i) + h3 * r * P3(i);
 end
 
-plot(timeVector, P3, 'g-');
+plot(timeVector3, P3, 'g-');
 
 
 h4 = 1;                    % Time Step
@@ -94,10 +96,10 @@ for i = 1:N4-1
     P4(i+1) = P4(i) + h4 * r * P4(i);
 end
 
-plot(timeVector, P4, 'c-');
-
+plot(timeVector4, P4, 'c-');
 
 xlabel('Time (t)');
 ylabel('Population (P(t))');
+grid on;
 title('P(t) versus t Using Euler''s Method');
-legend('P(t) h=0.001', 'P(t) h=0.01', 'P(t) h=0.1', 'P(t) h=1');
+legend('P(t) h=0.001','P(t) h=0.1','P(t) h=0.5','P(t) h=1');
