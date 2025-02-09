@@ -39,4 +39,9 @@ x0 = 10000; % Initial number of visitors is 10,000
 figure;
 plot(t,x,'-o'); % Graph the solution versus time 
 
+% Add graph axis labels
+xlabel('x(t) - Number of Visitors');
+ylabel('t - time in hours');
+title('x(t) versus t');
 
+%% Part (c)
