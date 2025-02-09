@@ -27,3 +27,17 @@ x(0) = 10,000 visitors
 x(t) = ________________________
 %}
 
+
+%% Part (b)
+
+
+tSpan = [0 15]; % Define time span
+x0 = 10000; % Initial number of visitors is 10,000
+
+[t, x] = ode45(@(t,x) 1500 - 10*(t + 1/(1+t)) - x.*(10/(100-5*t)), tSpan, x0);
+% Graph the solution
+
+figure;
+plot(t,x,'-o'); % Graph the solution versus time 
+
+
