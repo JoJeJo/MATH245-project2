@@ -15,6 +15,7 @@ Date            Changes             Programmer
 2/1/2025       part (C)           Natalia Hopper
 2/1/2025       part (D)           Natalia Hopper
 2/1/2025       part (E)           Natalia Hopper
+2/9/2025       part (A)         Jerom Jothiprakasam
 %}
 
 clc;
