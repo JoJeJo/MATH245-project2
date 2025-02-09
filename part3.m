@@ -46,3 +46,22 @@ ylabel('t - time in hours');
 title('x(t) versus t');
 
 %% Part (c)
+
+
+%% Part (d)
+
+
+
+%% Part (e)
+%{
+Comparison of parts c, d, and b:
+
+The graphs in parts (c) and (d) follow the same general curve of the
+graph in part (b). Part b is considered to be the "exact" graph because the
+ode function solves the ode exactly. Euler's Method is used as an
+approximation for the solution. 
+
+As the time-step decreases, the graph becomes more similar to the solution
+of part (b). This is because the accuracy increases. 
+%}
+
