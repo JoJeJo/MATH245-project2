@@ -42,6 +42,8 @@ x0 = 10000; % Initial number of visitors is 10,000
 
 figure;
 plot(t,x,'-o'); % Graph the solution versus time
+xlabel('Time (hours)');
+ylabel('Number of Visitors');
 
 %% part (c)
 h = 0.1;                 % Time Step
