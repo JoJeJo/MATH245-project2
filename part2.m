@@ -21,8 +21,17 @@ clc;
 clear;
 
 %% part (a)
-% NEED TO DO PART A
+%{
 
+P'(t) = 0 when P = 0, 100
+P = 0 is unstable because the derivative at the point is positive.
+p = 100 is stable because the derivative at the point is negative.
+
+A physical representation of this is if the population goes to 0
+it dies permanently, but if the population goes above the carrying
+capacity it will restabalize to the carrying capacity.
+
+%}
 
 %% part (b)
 
