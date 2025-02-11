@@ -46,8 +46,8 @@ figure;
 plot(t,y,'-o'); % Plots the ODE solution, adds circles at points on graph
 
 % Add graph axis labels
-xlabel('P(t) - Population');
-ylabel('t - time');
+xlabel('t - time');
+ylabel('P(t) - Population');
 title('P(t) versus t');
 
 %% part (c)
